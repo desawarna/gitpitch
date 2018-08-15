@@ -67,3 +67,9 @@ Pada database SQL, data disimpan dalam bentuk tabel. Sedangkan pada MongoDB data
 ### Instalasi MongoDB di Linux
 
 Jika kita ingin menggunakan MongoDB versi terbaru, maka kita harus men-download versi terakhir di website reseminya di [mongodb.com](https://www.mongodb.com/download-center).
+
+---
+
+### Portal Download MongoDB
+
+![Gambar MonggoDB](img/website-mongodb.png)
