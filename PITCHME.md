@@ -73,3 +73,53 @@ Jika kita ingin menggunakan MongoDB versi terbaru, maka kita harus men-download 
 ### Portal Download MongoDB
 
 ![Gambar MonggoDB](img/website-mongodb.png)
+
+---
+
+Tapi, jika ingin menggunakan versi lama yang ada di repositori, kita bisa menginstalnya dengan perintah:
+
+`sudo apt install mongodb`
+
+---
+
+Setelah itu, untuk memastikan sudah terinstal dengan benar, coba ketik perintah `mongo --version` atau `mongod --version` untuk memeriksa versinya.
+
+---
+
+Untuk keperluan belajar dasar, kita bisa pakai yang mana saja. Versi lama atau versi beru tidak masalah.
+
+Pada panduan ini, saya menggunakan versi yang lama.
+
+---
+
+### Cara Mengoperasikan MongoDB
+
+Ada beberapa perintah yang disediakan MongoDB untuk mengoperasikannya, seperti perintah `mongod` (_MongoDB Daemon_) untuk membuat server dan `mongo` untuk masuk ke Shell MongoDB.
+
+---
+
+###Menghidupkan dan Mematikan Server MongoDB
+
+Kita bisa menghidupkan dan mematikan server MongoDB dengan perintah `service` di Ubuntu dan keluarga Debian lainnya.
+
+---
+
+Menyalakan server MongoDB:
+
+`sudo service mongodb start`
+
+Mematikan server MongoDB:
+
+`sudo service mongodb stop`
+
+---
+
+Menyalakan ulang server MongoDB:
+
+`sudo service mongodb restart`
+
+Melihat status server MongoDB:
+
+`sudo service mongodb status`
+
+Gunakan tombol keyboard `q` untuk keluar dari status.
